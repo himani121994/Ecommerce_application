@@ -1,0 +1,41 @@
+.top-blog-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.slick-prev:before, 
+.slick-next:before {
+    color: black; 
+}
+
+.mid-blog-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.blog-images {
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-md-6 {
+    margin: 15px ;
+    flex: 0 0 48%;
+    box-sizing: border-box;
+}
+
+.blogheading {
+    text-decoration: underline;
+}
+
+.description {
+    line-height: 2;
+    font-size: large;
+}

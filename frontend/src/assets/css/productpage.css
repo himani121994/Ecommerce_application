@@ -1,0 +1,82 @@
+.product-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header, footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+
+.sidebar {
+    width: 200px;
+    background: black;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    top: 240px;
+    left: 0;
+    height: 90%;
+    animation: slideIn 0.5s ease-out forwards; 
+    /* z-index: 999; */
+    /* margin-top: 50px;  */
+    /* Adjust margin to account for the header */
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%); 
+    }
+    to {
+        transform: translateX(0); 
+    }
+}
+
+.sidebar h1 {
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.product-display {
+    margin-left: 250px; 
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* padding: 20px; */
+    /* margin-top: 50px;  */
+    /* Adjust margin to account for the header */
+}
+
+.product-card-productpage {
+    border: 1px solid #ddd;
+    padding: 0px;
+    border-radius: 5px;
+    width: 350px;
+    text-align: center;
+    height: 600px;
+    margin: 10px;
+}
+
+.product-image-productpage {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-card-productpage h2 {
+    font-size: 18px;
+    margin: 10px 0px 0px 0px;
+}
+.product-card-productpage p {
+    margin: 5px 0;
+}

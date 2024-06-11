@@ -1,0 +1,65 @@
+.Tranding-mainhome-div {
+    padding: 20px;
+}
+
+.product-list-home {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card-home {
+    margin: 0px 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    position: relative; /* Added position relative */
+}
+
+.product-image-home {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-card-home h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-card-home p {
+    margin: 5px 0;
+}
+
+.like-icon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    cursor: pointer;
+    color: #000;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+    font-size: 24px;
+}
+
+.like-icon.liked {
+    color: #dd081a;
+    font-size: 24px;
+}
+
+.product-card-home button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.product-card-home button:hover {
+    background-color: #0056b3;
+}

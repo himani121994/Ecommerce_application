@@ -1,0 +1,28 @@
+.search-results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px; 
+    width: 100%;
+    
+} */
+
+.product-card-search {
+    width: 320px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-card-search img {
+    width: 100%;
+    height: auto;
+}

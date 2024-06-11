@@ -1,0 +1,139 @@
+/* card.css */
+
+.main-card-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px; /* Adds some space between the cart and proceed to pay sections */
+}
+
+.cart-container {
+    flex: 3;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 10px;
+}
+
+.cart-item-image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.cart-item-details {
+    flex: 1;
+}
+
+.cart-item h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.product-detail-cart {
+    margin: 5px 0;
+    color: #666;
+    font-size: 18px;
+}
+.discription-cart{
+    font-size:15px;
+    width: 500px;
+    margin-left: 105px;
+    margin-top: 10px;
+}
+ span{
+    text-decoration: underline;
+    /* margin-left: 20px; */
+    font-size: 20px;
+}
+
+.cart-item .qty-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adds some space between the buttons */
+}
+
+.qty-buttons a {
+    color: #007bff;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+    margin: 0px,20px;
+}
+
+.qty-buttons a:hover {
+    color: #0056b3;
+}
+
+.cart-item button {
+    background-color: #ff4d4f;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cart-item button:hover {
+    background-color: #d9363e;
+}
+
+.Proccedd-div {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center-align text */
+}
+
+.Proccedd-div h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.Proccedd-div p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.Proccedd-div button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.Proccedd-div button:hover {
+    background-color: #218838;
+}

@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.topnav{
+    background-color: #2d394b;
+}
+.main-div-topheader{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-div{
+    display: flex;
+}
+.logo-div img{
+    width: 70px;
+    margin: 30px;
+}
+.logo-div span{
+    color: rgb(255, 255, 255,0.5);
+   margin-top: 50px;
+   margin-left: 80px;
+}
+.logo-div h2{
+    color: rgb(255, 255, 255);
+   margin-left: -30px;
+   margin-top: 65px;
+   font-size: 36px;
+}
+/* ============================search box=============== */
+
+.search-div{
+    position: relative;
+    top: 28px;
+}
+.search-div .search-topnav-input{
+    width: 500px;
+    height: 50px;
+    border-radius: 50px;
+    padding-right: 100px;
+}
+.search-div button{
+    position: absolute;
+    top: 1px;
+    background-color: #FF9800;
+    width: 100px;
+    height: 53px;
+    border-radius: 0px 50px 50px 0px;;
+    margin-left: -100px;
+    border: none;
+}
+/* ===================== */
+.user{
+    font-size: 30px;
+    margin: 30px;
+    color:white;
+}
+.user-info{
+    display: flex;
+    margin: 20px 50px 20px 10px;
+}
+.user-info span{
+    color: #FF9800;
+    position: relative;
+}
+.logout{
+    border: none;
+    background-color: #2d394b;
+    font-size: 24px;
+    margin-top: 10px;
+   
+}
+
+
+
+

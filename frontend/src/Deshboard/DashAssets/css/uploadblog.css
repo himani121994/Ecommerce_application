@@ -1,0 +1,23 @@
+.upload-bloag-div{
+    margin-left: 550px;
+    margin-top: 100px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+.blogtitel{
+    height: 30px;
+    width: 600px;
+}
+.blogdiscription{
+    width: 600px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+.blogupload-btn{
+    text-align: center;
+    margin-left: 250px;
+
+}
